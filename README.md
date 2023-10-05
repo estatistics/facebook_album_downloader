@@ -11,6 +11,7 @@ Another Facebook Album Downloader that was inspired and forked from </br> "https
 
 ## 📖 About 
 !!! It is still in development - multipage albums are not still downloaded - folder is not renamed after album title and much more !!!
+!!! Use it at your own risk !!!
 Facebook Album Downloader is a java (JS) file that allows users to download Facebook photo albums in full resolution in linux. 
 
 ### 📚 Tech Stack
@@ -81,7 +82,7 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 2. Go to the folder that you forked this repository, for example: `cd /home/USER/Downloads/facebook_album_downloader/`
 3. Run inside that folder `node fb_downloader.js` 
 
-### Optional - debugging
+### Optional - Debugging - Use it at your own risk.
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 2. Album urls are grabbed by `document.querySelectorAll('a[href*="/photo/?fbid="]');` 
   - If fb change image links in html in future, this may be edited accordingly - debug using your chrome/firefox console.
@@ -91,8 +92,9 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
   - then `const imageSelector = '[data-visualcompletion="media-vc-image"]';` it selects only this part of results that it is about images
 3. Then one-by-one fb photo urls are opened in new tab. open-save-close and again same circle it happens in full js code.
    - Go to a full resolution image of fb album then, you can run in your console 
-   - `const fileUrl = await page.$eval(imageSelector, img => img.src);` it selects the image url of full resolution image
-   - use ```console.log(`urls: ${fileUrl}` );``` to output the fileurl.
+   - `pp = document.querySelector(imageSelector, img => img.src);` it selects the image url of full resolution image
+   - use ```console.log(pp.src)``` to output the fileurl.
+4. Further debugging is listed in bottom of `fb_downloader.js`
 
 
 ## 🔑 License
