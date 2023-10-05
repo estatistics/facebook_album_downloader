@@ -80,8 +80,9 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 
 ### How to run 
-1. Run in a linux terminal `node fb_downloader.js` 
-
+1. open a terminal 
+2. Go to the folder that you forked this repository, for example: `cd /home/USER/Downloads/facebook_album_downloader/`
+3. Run inside that folder `node fb_downloader.js` 
 
 ## 🔑 License
 
