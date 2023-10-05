@@ -68,10 +68,10 @@ git clone https://github.com/estatistics/facebook-album-downloader.git
 npm install or yarn install 
 ```
 ### Before running
-When you fork this repisitory in your disk, open and edit `fb_downloader.js` as follows: 
+When you fork this repository in your disk, open and edit `fb_downloader.js` as follows: 
 
 1. in "const id" please WRITE your USERNAME and PASS of your facebook profile
-2. in "const ALBUM" please WRITE facebook ALBUM URL that you like to download. It is provided an example public fb album url. 
+2. in "const ALBUM" please WRITE facebook ALBUM URL that you like to download. It is provided an example of a public fb album url. 
 3. in "--user-data-dir='"  write the PATH to save images. There, it will be created a folder named "photos".
 4. in "executablePath:" write the path of YOUR browser - Currently, support is provided only for chromium 
 5. you may or may not activate the extra tab key press in line 68 by removing "//"
