@@ -55,12 +55,12 @@ The directory contains the following:
 
 1.  Clone this repository
 ```bash
-git clone https://github.com/yasinatesim/facebook-album-downloader.git
+git clone https://github.com/estatistics/facebook-album-downloader.git
 ```
 
 2. Install the project dependencies
 ```bash
-yarn install
+npm install or yarn install 
 ```
 
 **For Development**
