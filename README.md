@@ -63,52 +63,9 @@ git clone https://github.com/estatistics/facebook-album-downloader.git
 npm install or yarn install 
 ```
 
-**For Development**
+### How to run 
+1. Run in a terminal `node fb_downloader.js` 
 
-```bash
-yarn dev
-```
-
-### For Docker
-
-2. Change the directory
-
-```bash
-cd facebook-album-downloader
-```
-
-3. Run this command **without `yarn` or `yarn install`**
-
-```bash
-yarn setup
-```
-
-or
-
-```bash
-yarn && docker-compose up --build
-```
-
-App is running on [http://localhost:3000](http://localhost:3000)
-
-**For Production Build &amp; Build Start**
-
-```bash
-yarn build
-```
-
-and
-
-```bash
-yarn start
-```
-
-**For Lint &amp; Format**
-
-```bash
-yarn lint
-yarn format
-```
 
 ## 🔑 License
 
@@ -117,5 +74,3 @@ yarn format
 See [LICENSE](https://github.com/yasinatesim/facebook-album-downloader/blob/main/LICENSE) for more information.
 
 ---
-
-_This README was generated with by [markdown-manager](https://github.com/yasinatesim/markdown-manager)_ 🥲
