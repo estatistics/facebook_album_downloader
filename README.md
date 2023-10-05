@@ -81,7 +81,7 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 2. Go to the folder that you forked this repository, for example: `cd /home/USER/Downloads/facebook_album_downloader/`
 3. Run inside that folder `node fb_downloader.js` 
 
-### Optional - debuging
+### Optional - debugging
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 2. Album urls are grabbed by `document.querySelectorAll('a[href*="/photo/?fbid="]');` 
   - If fb change image links in html in future, this may be edited accordingly - debug using your chrome/firefox console.
