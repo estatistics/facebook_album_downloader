@@ -1,6 +1,5 @@
 <h3 align="center">
-
-Another Facebook Album Downloader that was forked from   <a  href="https://github.com/yasinatesim/facebook-album-downloader"><img src="https://yasinates.com/facebook-album-downloader.png" alt="Facebook Album Downloader" width="200" /></a>
+Another Facebook Album Downloader that was inspired and forked from </br> "https://github.com/yasinatesim/facebook-album-downloader" 
 </h3>
 
 <hr />
@@ -8,13 +7,13 @@ Another Facebook Album Downloader that was forked from   <a  href="https://githu
 <p  align="center">A simple web application that allows users to download Facebook albums in full resolution.</p>
 
 <p align="center">
-  · <a href="https://github.com/yasinatesim/facebook-album-downloader/issues">Report Bug</a>
-  · <a href="https://github.com/yasinatesim/facebook-album-downloader/issues">Request Feature</a>
+  · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Report Bug</a>
+  · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Request Feature</a>
 </p>
 
 ## 📖 About
 
-Facebook Album Downloader is a web application that allows users to download Facebook photo albums in full resolution. Simply enter the link to the album you want to download, and the application will create a ZIP archive containing all photos from the album.
+Facebook Album Downloader is a java (JS) file that allows users to download Facebook photo albums in full resolution. 
 
 ### 📚 Tech Stack
 
@@ -28,71 +27,22 @@ Facebook Album Downloader is a web application that allows users to download Fac
   <td><a href="https://axios-http.com/">Axios</a></td>
   <td>A promise-based HTTP client for the browser and Node.js</td>
 </tr>
-<tr>
-  <td><a href="https://www.npmjs.com/package/jszip">JSZip</a></td>
-  <td>A JavaScript library for creating, reading, and editing ZIP archives</td>
-  <tr>
-    <td><a href="https://nextjs.org/">Next.js</a></td>
-    <td>The React Framework for SEO Friendly website and more...</td>
-  </tr>
   <tr>
   <td><a href="https://reactjs.org/">React</a></td>
   <td>A JavaScript library for building user interfaces</td>
 </tr>
- <tr>
-    <td> <a href="https://github.com/skratchdot/react-github-corner">skratchdot/react-github-corner</a></td>
-    <td>Add a Github banner to your project page for React</td>
-  </tr>
-  <tr>
-    <td> <a href="https://github.com/conventional-changelog/commitlint">Commitlint</a></td>
-    <td>Send commit messages to <a href="https://www.conventionalcommits.org/en/v1.0.0/">conventional commits</a> rules</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.typescriptlang.org/">TypeScript</a></td>
-    <td>TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.</td>
-  </tr>
-  <tr>
-    <td><a href="https://sass-lang.com/">SASS</a></td>
-    <td>The most mature, stable, and powerful professional grade CSS extension language in the world</td>
-  </tr>
-  <tr>
-    <td><a href="https://editorconfig.org/">Editorconfig</a></td>
-    <td>Helps maintain consistent coding styles for my working on the same project across various editors and IDEs</td>
-  </tr>
-  <tr>
-    <td><a href="https://eslint.org/">Eslint</a></td>
-    <td>Find and fix problems in your JavaScript code</td>
-  </tr>
-  <tr>
-    <td><a href="https://prettier.io/">Prettier</a></td>
-    <td>An opinionated code formatter</td>
-  </tr>
 </table>
 
-## 🧐 What's inside?
 
 ### Features
 
 The main feature of this application is to allow users to download Facebook albums after entering the album link. When users enter a Facebook album link and click the "download" button, the application uses a tool called Puppeteer to scrape the HTML of the album and then presents these files as a downloadable ZIP file. Additionally, the application also includes a feature that warns the user if they are leaving the page while the download process may not have been completed yet.
 
-## Structure
+## File information
 
-- `pages` - Contains top-level pages of the application.
-  - `api` - Contains serverless API endpoints.
-    - `download.ts` - Downloads a Facebook album using Puppeteer to scrape the HTML.
-  - `index.tsx` - Renders the root component into the DOM.
+The directory contains the following:
 
-The `src` directory contains the following:
-
-- `styles` - Contains global styles.
-  `global.scss` - Global SCSS stylesheet.
-- `containers`
-  - `Home` - Contains the main component of the application.
-    - `Home.module.scss` - Local SCSS stylesheet for the Home component.
-    - `Home.tsx` - Renders a form that allows users to input a Facebook album link and start downloading it.
-- `Hooks`
-  `index.ts` - Exports all custom hooks.
-  `useBeforeUnload.ts` - Provides a hook that warns the user before leaving the page if a download is in progress.
+- `fb_downloader.js` - The main app that contains the code to download photos of full resolution from facebook albums that you have access
 
 ## Getting Started
 
