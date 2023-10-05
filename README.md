@@ -2,7 +2,8 @@
   <br />
    <a  href="https://github.com/yasinatesim/facebook-album-downloader"><img src="https://yasinates.com/facebook-album-downloader.png" alt="Facebook Album Downloader" width="200" /></a>
   <br />
-Facebook Album Downloader
+Another Facebook Album Downloader that was forked from   <a  href="https://github.com/yasinatesim/facebook-album-downloader"><img src="https://yasinates.com/facebook-album-downloader.png" alt="Facebook Album Downloader" width="200" /></a>
+  
   <br />
 </h3>
 
