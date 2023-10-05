@@ -76,7 +76,7 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 4. in "executablePath:" write the path of YOUR browser - Currently, support is provided only for chromium 
 5. you may or may not activate the extra tab key press in line 68 by removing "//"
 
-# Optional - debuging
+### Optional - debuging
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 2. Album urls are grabbed by `document.querySelectorAll('a[href*="/photo/?fbid="]');` 
   - If fb change image links in html in future, this may be edited accordingly - debug using your chrome/firefox console.
