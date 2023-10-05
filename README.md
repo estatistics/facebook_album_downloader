@@ -9,8 +9,8 @@ Another Facebook Album Downloader that was inspired and forked from </br> "https
   · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Request Feature</a>
 </p>
 
-## 📖 About
-
+## 📖 About 
+!!! It is still in development - multipage albums are not still downloaded - folder is not renamed after album title and much more !!!
 Facebook Album Downloader is a java (JS) file that allows users to download Facebook photo albums in full resolution in linux. 
 
 ### 📚 Tech Stack
