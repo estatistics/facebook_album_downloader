@@ -1,11 +1,9 @@
 <h3 align="center">
 Another Facebook Album Downloader that was inspired and forked from </br> "https://github.com/yasinatesim/facebook-album-downloader" 
 </h3>
-
 <hr />
 
 <p  align="center">A simple web application that allows users to download Facebook albums in full resolution.</p>
-
 <p align="center">
   · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Report Bug</a>
   · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Request Feature</a>
@@ -43,6 +41,8 @@ The main feature of this application is to allow users to download Facebook albu
 The directory contains the following:
 
 - `fb_downloader.js` - The main app that contains the code to download photos of full resolution from facebook albums that you have access
+- README.md - An information file that includes the information that is presented here
+- package.json - A file that contains all the packages that may need to be installed in your system in order fb_downloader.js to work.
 
 ## Getting Started
 
