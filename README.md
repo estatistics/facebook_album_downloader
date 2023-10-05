@@ -34,7 +34,7 @@ Facebook Album Downloader is a java (JS) file that allows users to download Face
 
 ### Features
 
-The main feature of this application is to allow users to download Facebook albums after entering the album link. When users enter a Facebook album link and click the "download" button, the application uses a tool called Puppeteer to scrape the HTML of the album and then presents these files as a downloadable ZIP file. Additionally, the application also includes a feature that warns the user if they are leaving the page while the download process may not have been completed yet.
+The main feature of this javascript (JS) is to allow users to download Facebook albums after providing USER,PASSWORD,Facebook ALBUM url that they have access. The javascript uses mainly a tool called Puppeteer to scrape the HTML of the album.
 
 ## File information
 
@@ -62,6 +62,17 @@ git clone https://github.com/estatistics/facebook-album-downloader.git
 ```bash
 npm install or yarn install 
 ```
+### Before running
+When you fork this repisitory in your disk, open and edit `fb_downloader.js` as follows: 
+
+1. in "const id" please WRITE your USERNAME and PASS of your facebook profile
+2. in "const ALBUM" please WRITE facebook ALBUM URL that you like to download. It is provided an example public fb album url. 
+3. in "--user-data-dir='"  write the PATH to save images. There, it will be created a folder named "photos".
+4. in "executablePath:" write the path of YOUR browser - Currently, support is provided only for chromium 
+5. you may or may not activate the extra tab key press in line 68 by removing "//"
+
+# Optional - debuging
+1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 
 ### How to run 
 1. Run in a linux terminal `node fb_downloader.js` 
