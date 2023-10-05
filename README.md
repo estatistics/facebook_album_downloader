@@ -20,17 +20,20 @@ Facebook Album Downloader is a java (JS) file that allows users to download Face
   <tr>
   <td><a href="https://pptr.dev/">Puppeteer</a></td>
   <td>A Node library for controlling headless Chrome or Chromium browsers</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
   <td><a href="https://axios-http.com/">Axios</a></td>
   <td>A promise-based HTTP client for the browser and Node.js</td>
-</tr>
+  </tr>
   <tr>
   <td><a href="https://nodejs.org/api/fs.html">Fs</a></td>
   <td>A JavaScript library for working with files</td>
-</td>
+  </td>
+  <tr>
+  <td><a href="https://nodejs.org/api/path.html">Path</a></td>
+  <td>A JavaScript library for working with paths</td>
+  </td>
 </tr>
-  
 </table>
 
 
