@@ -78,6 +78,16 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 
 # Optional - debuging
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
+2. Album urls are grabbed by `document.querySelectorAll('a[href*="/photo/?fbid="]');` 
+  - If fb change image links in html in future, this may be edited accordingly - debug using your chrome/firefox console.
+  - After you have opened your fb album url and it has been loaded completely
+  - Enter `document.querySelectorAll('a[href*="/photo/?fbid="]');` in console,
+  - Normally, it must output a list of results.
+  - then `const imageSelector = '[data-visualcompletion="media-vc-image"]';` it selects only this part of results that it is about images
+3. Then one-by-one fb photo urls are opened in new tab. open-save-close and again same circle it happens in full js code.
+   - Go to a full resolution image of fb album then, you can run in your console 
+   - `const fileUrl = await page.$eval(imageSelector, img => img.src);` it selects the image url of full resolution image
+   - use `console.log(`urls: ${fileUrl}` );` to output the fileurl. 
 
 ### How to run 
 1. Open a terminal 
