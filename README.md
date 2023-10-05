@@ -3,7 +3,7 @@ Another Facebook Album Downloader that was inspired and forked from </br> "https
 </h3>
 <hr />
 
-<p  align="center">A simple web application that allows users to download Facebook albums in full resolution.</p>
+<p  align="center">A simple application that allows users to download Facebook albums in full resolution for linux users.</p>
 <p align="center">
   · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Report Bug</a>
   · <a href="https://github.com/estatistics/facebook-album-downloader/issues">Request Feature</a>
@@ -11,7 +11,7 @@ Another Facebook Album Downloader that was inspired and forked from </br> "https
 
 ## 📖 About
 
-Facebook Album Downloader is a java (JS) file that allows users to download Facebook photo albums in full resolution. 
+Facebook Album Downloader is a java (JS) file that allows users to download Facebook photo albums in full resolution in linux. 
 
 ### 📚 Tech Stack
 
@@ -64,7 +64,7 @@ npm install or yarn install
 ```
 
 ### How to run 
-1. Run in a terminal `node fb_downloader.js` 
+1. Run in a linux terminal `node fb_downloader.js` 
 
 
 ## 🔑 License
