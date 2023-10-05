@@ -76,6 +76,11 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 4. in "executablePath:" write the path of YOUR browser - Currently, support is provided only for chromium 
 5. you may or may not activate the extra tab key press in line 68 by removing "//"
 
+### How to run 
+1. Open a terminal 
+2. Go to the folder that you forked this repository, for example: `cd /home/USER/Downloads/facebook_album_downloader/`
+3. Run inside that folder `node fb_downloader.js` 
+
 ### Optional - debuging
 1. If you like you may change `headless` mode from `true` to `false` in order to see what happens
 2. Album urls are grabbed by `document.querySelectorAll('a[href*="/photo/?fbid="]');` 
@@ -87,12 +92,8 @@ When you fork this repository in your disk, open and edit `fb_downloader.js` as 
 3. Then one-by-one fb photo urls are opened in new tab. open-save-close and again same circle it happens in full js code.
    - Go to a full resolution image of fb album then, you can run in your console 
    - `const fileUrl = await page.$eval(imageSelector, img => img.src);` it selects the image url of full resolution image
-   - use `console.log(`urls: ${fileUrl}` );` to output the fileurl. 
+   - use ```console.log(`urls: ${fileUrl}` );``` to output the fileurl.
 
-### How to run 
-1. Open a terminal 
-2. Go to the folder that you forked this repository, for example: `cd /home/USER/Downloads/facebook_album_downloader/`
-3. Run inside that folder `node fb_downloader.js` 
 
 ## 🔑 License
 
