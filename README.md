@@ -49,19 +49,16 @@ The directory contains the following:
 ### 📦 Prerequisites
 
 - Node (v17.0.0+)
-
 - Npm (v8.1.0+)
 
 ### ⚙️ How To Use
 
 1.  Clone this repository
-
 ```bash
 git clone https://github.com/yasinatesim/facebook-album-downloader.git
 ```
 
 2. Install the project dependencies
-
 ```bash
 yarn install
 ```
